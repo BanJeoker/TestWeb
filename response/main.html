@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en" manifest="offline.manifest">
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript">document.cookie='resolution='+Math.max(screen.width,screen.height)+';path=/';</script>
+	
+		
+		<link rel="stylesheet" href="main.css" >
+
+		<!-- <link rel="stylesheet" href="flexslide/flexslider.css" type="text/css" media="screen" /> -->
+		
+  
+
+  <!-- Optional FlexSlider Additions -->
+  <script src="js/jquery.easing.js"></script>
+  <script src="js/jquery.mousewheel.js"></script>
+  <script defer src="js/demo.js"></script>
+
+
+		
+		<script type="text/javascript" src="jq/jquery-1.7.1.js"></script>
+
+         <script src="jq/jquery.fitvids.js"></script>
+		<script type="text/javascript" src="jq/jquery.SuperSlide.2.1.1.js"></script>
+		
+   <script type="text/javascript" src="jq/tickerscrambler.js"></script>  
+   
+
+<script src="js-webshim/minified/extras/modernizr-custom.js"></script>
+<script src="js-webshim/minified/polyfiller.js"></script>
+<script type="text/javascript" src="jq/jquery.textanimation.js"></script>
+<script type="text/javascript" src="jq/jquery.transit.min.js"></script>
+
+          <link rel="stylesheet" type="text/css" href="flexslide/flexslider.css" /> 
+         <style type="text/css">
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+  display: none;
+}
+</style>
+          <script type="text/javascript" src="flexslide/jquery.flexslider-min.js"></script>
+          <!-- <link type="text/css" rel="stylesheet" href="css/style.css"> -->
+	    <!-- <link type="text/css" rel="stylesheet" href="css/jquery.flexslide.css"> -->
+
+         <script type="text/javascript">
+             
+             
+         // alert("message");
+        $(function(){
+           // $(window).load(function() {
+           $('.flexslider').flexslider({
+           animation: "slide"
+           });
+           
+           // });
+           // alert("message");
+            // $(".flexslider").flexslider();
+          // $("#example-1").flexslide();
+           // alert("message");
+
+           // alert("message");
+           
+
+          // $(function(){
+          // 	 // alert("message");
+          // 	 var i=0;
+          	 var interval;
+          // 	 var array=new Array();
+          //    array[0]="gorgeous";
+          //    array[1]="Future";
+          //    array[2]="Hollywood";
+          //    // alert(array[2]);
+          //  // function run(){ 
+          //  // 	alert("message");""
+           // function changelogo(){ 
+           // // alert("ddd");
+           // if($(window).width()<="760")
+           //   {
+           //   	 // alert("message");
+           //   	$("#slidebox1").attr("src","images/760/p2279866748.jpg");
+           //   	$("#slidebox2").attr("src","images/760/dragon.jpg");
+           //   	$("#slidebox3").attr("src","images/760/ava.jpg");
+           //   	// alert("message");
+           //   }
+           // }
+            // interval=setInterval(changelogo,1000); 
+        })
+          //  //  } 
+           
+          //  // setTimeout(changelogo(), 1000);
+          //  // alert("message");
+           
+          //   // alert("1111");
+          //   $("#logodownspan").text(array[i]);
+            
+          //   i++;
+          //   if(i==3)
+          //   {
+          //   	i=0;
+
+          //   }
+          //   // setInterval(changelogo(),1000);
+            
+          //   } 
+          //   // alert("111111");
+          //   interval=setInterval(changelogo,1000);
+          // })
+         </script>
+		 <script type="text/javascript">
+          $(function(){
+          	var startime=0;
+          	$("#starbutton1").click(function(){
+
+         if(startime>0)
+       	{   
+       		 if(($(window).width()>"641")&&($(window).width()<"748"))
+       		 {
+                 $(".topstarslist").animate({left:"+=302px"},500)
+       		 }
+       		 else if($(window).width()<"641"){
+                  $(".topstarslist").animate({left:"+=302px"},500)
+       		 }
+       		  else if(($(window).width()>"748")&&($(window).width()<"849")){
+       		 	// alert("message");
+                  $(".topstarslist").animate({left:"+=230px"},500)
+       		 }
+       		 else if(($(window).width()>"850")&&($(window).width()<"1192")){
+                  $(".topstarslist").animate({left:"+=220px"},500)
+       		 }
+       		
+       		 else{$(".topstarslist").animate({left:"+=202px"},500)}
+             startime--;
+       }
+       })
+       $("#starbutton2").click(function(){
+      if(startime<4)
+      {
+      	    if(($(window).width()>"641")&&($(window).width()<"748"))
+       		 {
+                 $(".topstarslist").animate({left:"-=302px"},500)
+       		 }
+       		 else if($(window).width()<"641"){
+                  $(".topstarslist").animate({left:"-=302px"},500)
+       		 }
+       		 else if(($(window).width()>"748")&&($(window).width()<"849")){
+       		 	// alert("message");
+                  $(".topstarslist").animate({left:"-=230px"},500)
+       		 }
+       		 else if(($(window).width()>"850")&&($(window).width()<"1192")){
+       		 	// alert("message");
+                  $(".topstarslist").animate({left:"-=220px"},500)
+       		 }
+       		 
+       		 else{$(".topstarslist").animate({left:"-=202px"},500)}
+             
+       startime++;
+      }
+    })
+
+       var startime2=0;
+          	$("#starbutton3").click(function(){
+         if(startime2>0)
+       	{if(($(window).width()>"641")&&($(window).width()<"768"))
+       		 {
+                 $(".topmovieslist").animate({left:"+=302px"},500)
+       		 }
+       		 else if($(window).width()<"641"){
+                  $(".topmovieslist").animate({left:"+=302px"},500)
+       		 }
+       		 else if(($(window).width()>"748")&&($(window).width()<"849")){
+       		 	// alert("message");
+                  $(".topmovieslist").animate({left:"+=230px"},500)
+       		 }
+       		 else if(($(window).width()>"850")&&($(window).width()<"1192")){
+                  $(".topmovieslist").animate({left:"+=220px"},500)
+       		 }
+       		 else{$(".topmovieslist").animate({left:"+=202px"},500)}
+        startime2--;
+       }
+       })
+       $("#starbutton4").click(function(){
+      if(startime2<4)
+      {  
+      	if(($(window).width()>"641")&&($(window).width()<"768"))
+       		 {
+                 $(".topmovieslist").animate({left:"-=302px"},500)
+       		 }
+       		 else if($(window).width()<"641"){
+                  $(".topmovieslist").animate({left:"-=302px"},500)
+       		 }
+       		 else if(($(window).width()>"748")&&($(window).width()<"849")){
+       		 	// alert("message");
+                  $(".topmovieslist").animate({left:"-=230px"},500)
+       		 }
+       		 else if(($(window).width()>"850")&&($(window).width()<"1192")){
+       		 	// alert("message");
+                  $(".topmovieslist").animate({left:"-=220px"},500)
+       		 }
+       		 else{$(".topmovieslist").animate({left:"-=202px"},500)}
+    startime2++;}
+   })
+
+       
+          	 // run();
+          	//  var i=0;
+          	//  var array=new Array();
+           //   array[0]="gorgeous";
+           //   array[1]="Future";
+           //   array[2]="Hollywood";
+           //   // alert(array[2]);
+           // // function run(){ 
+           // // 	alert("message");
+           // // interval = setInterval(changelogo(),"1000"); 
+           // //  } 
+           
+           // // setTimeout(changelogo(), 1000);
+           // // alert("message");
+           // function changelogo(){ 
+           //  alert("1111");
+           //  $("#logodownspan").text(array[i]);
+            
+           //  i++;
+           //  if(i==3)
+           //  {
+           //  	i=0;
+
+           //  }
+           //  // setInterval(changelogo(),1000);
+            
+           //  } 
+           //  setInterval(changelogo(),1000);
+            // alert("message");
+  //       $(".logodownspan").textAnimation({
+		// mode: "roll"
+	 //    });
+
+            var x=15;
+        	var y=15;
+        	$(".hanspophref").mousemove(function(e){
+        		// alert(this.id);
+        		$("#imgTip").attr("src",this.id);
+        		$("#popimg").css({"top":(e.pageY+y)+"px","left":(e.pageX+x)+"px"}).show(300);
+        		// alert("message");
+        	})
+        	$(".hanspophref").mouseout(function(e){
+        		$("#popimg").hide();
+        	})
+        	// alert("message");
+   $(".logodownspan").TickerScrambler({
+	list: ['Imaginable','Future','Hollywood','Beautiful']
+});
+
+
+
+ 
+
+             var obj;
+             var id;
+             var flag=0;
+             // alert("message");
+             // $(".lunbo").slide({mainCell:".bd ul",effect:"leftLoop",autoPlay:true,trigger:"click"});
+             // alert("message");
+
+
+             // $("#content").fitVids();
+             // alert("dfs");
+             $(".slideBox").slide({mainCell:".bd ul",effect:"leftLoop",autoPlay:true,trigger:"click"});
+             // alert("message");
+
+             $(".navli").mouseover(function() {
+                
+                 // alert($(window).width());
+                if($(window).width()>"640")
+                {
+                id=$(this).attr("id");
+                id=id.substring(5);
+                id="#tipp"+id;
+                
+                $(id).show();
+                // alert("message");
+                }
+
+               // alert("message");
+
+                // obj.next("div").show();
+                // alert("message");
+                // $(".tip1").show();
+                // obj.show();
+                /* Act on the event */
+                // alert("message");
+             });
+             $(".navli").click(function() {
+                // alert("222222");
+                if($(window).width()<="640")
+                {
+                id=$(this).attr("id");
+                id=id.substring(5);
+                id="#tipp"+id;
+                if(flag==0)
+                {$(id).show();flag=1;
+                }
+                else{
+                     $(id).hide();flag=0;
+                }
+                }
+                
+               // alert("message");
+
+                // obj.next("div").show();
+                // alert("message");
+                // $(".tip1").show();
+                // obj.show();
+                /* Act on the event */
+                // alert("message");
+             });
+             $(".navli").mouseout(function() {
+                // alert("222222");
+                if($(window).width()>"640")
+                {id=$(this).attr("id");
+                id=id.substring(5);
+                id="#tipp"+id;
+                
+                $(id).hide();}
+                // $(".tip1").hide();
+                // obj.show();
+                /* Act on the event */
+                // alert("message");
+             });
+             // alert("message");
+             
+
+
+// alert("1111111");
+          })
+		 </script>
+		 
+	<!-- 	 // alert("message");
+   //        $.webshims.setOptions('forms-ext', { replaceUI: false });
+	
+	//set language/UI dateformat
+	//$.webshims.activeLang('hu'); // hu == hungary
+	
+	//start polyfilling
+	// webshims.polyfill();
+                    // alert("sss"); -->
+		 
+		 <script type="text/javascript">
+          function showValue (newValue) {
+          	// body...
+          	document.getElementById("range").innerHTML=newValue;
+          }
+		 </script>
+		 <script type="text/javascript">
+          function addhttp () {
+          	// body...
+          	// alert("messagesdfsd");
+          	document.getElementById("web").value="http://";
+          	// alert("message");
+          }
+		 </script>
+		 <link href="fico/css/icons.css" rel="stylesheet">
+	     <link href="fico/css/style.css" rel="stylesheet">
+	     <style type="text/css">
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
+}
+</style>
+	</head>
+	<body>
+	<div id="wrapper">
+	    <!-- <div id="top"></div> -->
+	    
+		<header>
+		<div id="top"></div>
+		    <div id="aboutmovie">
+		    <div id="logoall"><div id="logo">Everything About Movie</div>
+		     <div id="logodown">Moive is <span class="logodownspan">Beautiful</span></div></div>
+		    
+		    <div id="searchmovie">
+		    <input id="search" name="search" type="text" placeholder="Harry Potter">
+		    <a href="#">Search</a>
+
+		     </div>
+		    
+		      <div id="userlogin"><a class="icon icon-user"> Login</a></div>
+		    </div>
+
+
+			<nav>
+			<ul>
+				<li id="navli1" class="navli"><a class="nava" href="#">Genre</a>
+				<div class="tip1" id="tipp1">
+				<p><a class="tipa" href="#">aaaa</a></p>
+				<p><a class="tipa"href="#">bbbb</a></p>
+			    </div>
+			    </li>
+
+				<li id="navli2"class="navli"><a class="nava" href="#">Visual</a>
+				<div class="tip2"id="tipp2">
+				<p><a class="tipa" href="#">aaaa</a></p>
+				<p><a class="tipa" href="#">bbbb</a></p>
+			    </div>
+			    </li>
+
+
+				<li id="navli3"class="navli"><a class="nava" href="#">Stars</a>
+
+				<div class="tip1"id="tipp3">
+				<p><a class="tipa" href="#">aaaa</a></p>
+				<p><a class="tipa" href="#">bbbb</a></p>
+			    </div>
+			    </li>
+
+				<li id="navli4"class="navli"><a class="nava" href="#">Soundtrack</a>
+
+				<div class="tip2"id="tipp4">
+				<p><a class="tipa" href="#">aaaa</a></p>
+				<p><a class="tipa" href="#">bbbb</a></p>
+			    </div>
+			    </li>
+
+				<li id="navli5"class="navli"><a class="nava" href="#">Tickets</a>
+				<div class="tip1"id="tipp5">
+				<p><a class="tipa" href="#">aaaa</a></p>
+				<p><a class="tipa" href="#">bbbb</a></p>
+			    </div>
+			    </li>
+
+				<li id="navli6"class="navli"><a class="icon icon-smartphone" href="#">Contact</a>
+				<div class="tip2"id="tipp6">
+				<p><a class="tipa" href="#">ccc</a></p>
+				<p><a class="tipa" href="#">ddd</a></p>
+			    </div>
+			    </li>
+
+			</ul>
+			</nav>
+			<div id="slideall">
+			<div id="slide">
+
+
+            <!-- <ul id="example-1" class="flexslide">
+			<li>
+				<img src="images/p2279866748.jpg" width="1280" height="720"/>
+			</li>
+			<li>
+				<img src="images/dragon.jpg" width="1280" height="720"/>
+			</li>
+			<li>
+				<img src="images/ava.jpg" width="1280" height="720"/>
+			</li>
+			
+		</ul> -->
+
+
+		<!-- <div id="slideBox" class="slideBox">
+			<div class="hd">
+				<ul><li class="on"></li><li class></li><li class></li></ul>
+			</div>
+			<div class="bd">
+				<ul>
+					<li><a href="#" target="_blank"><img  id="slidebox1" src="images/p2279866748.jpg" /></a>
+                    
+					</li>
+					<li><a href="#" target="_blank"><img id="slidebox2" src="images/dragon.jpg" /></a></li>
+					<li><a href="#" target="_blank"><img id="slidebox3" src="images/ava.jpg" /></a></li>
+				</ul>
+			</div>
+
+			<a class="prev" href="javascript:void(0)"></a>
+			<a class="next" href="javascript:void(0)"></a>
+
+		</div>	
+ -->
+		<div class="flexslider">
+          <ul class="slides">
+            <li>
+            <!-- <p class="fleximgtitle">aaaaaaaaaaaaaa</p> -->
+  	    	    <img src="images/p2279866748.jpg" />
+              <p class="flex-caption">Adventurer Cheesecake Brownie</p>
+  	    		</li>
+  	    		<li>
+  	    		<!-- <p class="fleximgtitle">bbbbbbbbbbbbb</p> -->
+  	    	    <img src="images/dragon.jpg" />
+              <p class="flex-caption">Adventurer Lemon</p>
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/ava.jpg" />
+              <p class="flex-caption">Adventurer Donut</p>
+  	    		</li>
+  	    		
+          </ul>
+        </div>
+
+		</div>
+		 <!-- <div class="slidetext">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>  -->
+		</div>
+
+
+		</header>
+		
+
+		
+		<aside>
+			<section>
+			<div id="unsunghero">
+				<h1>Now's Showing</h1>
+				<a href="#"><img src="img/animal.jpg" alt="fantastic animal and where to find them">
+				</a>
+				<a href="#"><img src="img/billy.jpg" alt="billy lynn's long half time walk">
+				</a>
+				<input type="button" class="ticketbutton" value="tickets&raquo;">
+
+			</div>
+			</section>
+			<section>
+			<div id="overhyped">
+				<h1>My Recommendation. </h1>
+				<a href="#" >
+					<img src="img/lalajpg.jpg" alt="La La Land">
+				</a>
+				<a href="#" >
+					<img src="img/breathejpg.jpg" alt="dont breathe">
+				</a>
+				<input type="button" class="ticketbutton" value="tickets&raquo;">
+			</div>
+
+			</section>
+			<section>
+			<div id="overhyped">
+				<h1>Upcoming </h1>
+				<a href="#" >
+					<img src="img/spider.jpg" alt="La La Land">
+				</a>
+				<a href="#" >
+					<img src="img/interstellar.jpg" alt="dont breathe">
+				</a>
+				<input type="button" class="ticketbutton" value="Preorder&raquo;">
+			</div>
+
+			</section>
+
+		</aside>
+		
+		<div id="rec">
+            <img class="oscarMain" src="images/pic2.jpg" alt="atwi_oscar" />
+			<h1>Sick  And  Tired  Of  The  Visual  Rubbish  Such  as  Transformers?  Avengers? <em>Here is your chance to redeem yourself</em></h1>
+		    <div id="recmethod">
+		    	By taking a test with a dozen questions, we will be able to select the perfect movie just for you. All you have to do it to tell us your own taste.
+		    </div>
+	        <a class="recbutton" href="#">Here lies the Turth <span>&raquo;</span></a>
+            </div>
+            
+		<div id="content">
+		
+            
+		    
+	<!-- <video  controls  src="MV/Know.mp4" >
+		Dont wanna know !!!
+	</video>
+    <video id="video1" controls height="auto" width="880px" src="MV/Know.mp4" >
+		Dont wanna know !!!
+	</video> -->
+        <div id="threechange">
+        <div id="threechangebg"><img id="threechangebgreal"src="img/hans/labg.jpg"></div>
+        <div id="borntoday">Those stars who were born today</div>
+        <!-- <div class="starbangle"></div> -->
+	    <section class="Qcontainer">
+		  <div class="film">
+		  	<div class="face">
+		  	<div class="front">
+		  		<img src="img/gal2.png" alt="gal">
+		  	</div>
+		  	</div>
+		  	<div class="back">
+		  	    <img id="whiteboard" src="img/white.png">
+		  		<img id="wonderwoman" src="img/ww.jpg">
+		  		
+		  		<div id="wwback">
+		  		<span class="backtitle">Gal Gadot</span><br>
+		  		<span class="backmovie">
+		  		<a class="icon icon-video-alt" href="#"> Fast&Furious</a><br>
+		  		<a class="icon icon-video-alt" href="#"> Wonder Woman</a><br>
+		  		<a class="icon icon-video-alt" href="#"> Justice League</a><br>
+		  		<a class="icon icon-video-alt" href="#"> BvS</a><br>
+		  		<a class="icon icon-video-alt" href="#"> Keeping Up with &nbsp&nbsp&nbsp &nbsp&nbsp&nbsp the Joneses</a><br>
+		  		</span>
+		  		<div class="goddess">
+		  		<a   href="#">Learn more</a></div>
+		  		</div>
+		  	</div>
+		  </div>
+		</section>
+		<section class="Qcontainer">
+		 <div class="film">
+		  	<div class="face">
+		  	<div class="front">
+		  		<img src="img/tom.jpg" alt="gal">
+		  	</div>
+		  	</div>
+		  	<div class="back">
+		  	    <img id="whiteboard" src="img/white.png">
+		  		<img id="wonderwoman" src="img/tdkr.jpg">
+		  		
+		  		<div id="wwback">
+		  		<span class="backtitle">Tom Hardy</span><br>
+		  		<span class="backmovie">
+		  		<a class="icon icon-video-alt"href="#"> Warriors</a><br>
+		  		<a class="icon icon-video-alt"href="#"> TDKR</a><br>
+		  		<a class="icon icon-video-alt"href="#"> Mad Max 4</a><br>
+		  		<a class="icon icon-video-alt"href="#"> Inception</a><br>
+		  		<a class="icon icon-video-alt"href="#"> The Revenant</a><br>
+		  		</span><div class="goddess">
+		  		<a   href="#">Learn more</a></div>
+		  		</div>
+		  	</div>
+		  </div>
+		</section>
+		<section class="Qcontainer">
+		  <div class="film">
+		  	<div class="face">
+		  	<div class="front">
+		  		<img src="img/ryan.jpg" alt="gal">
+		  	</div>
+		  	</div>
+		  	<div class="back">
+		  	    <img id="whiteboard" src="img/white.png">
+		  		<img id="wonderwoman" src="img/note.jpg">
+		  		
+		  		<div id="wwback">
+		  		<span class="backtitleRyan">Ryan Gosling</span><br>
+		  		<span class="backmovie">
+		  		<a class="icon icon-video-alt"href="#"> La La Land</a><br>
+		  		<a class="icon icon-video-alt"href="#"> Notebook</a><br>
+		  		<a class="icon icon-video-alt"href="#"> Drive</a><br>
+		  		<a class="icon icon-video-alt"href="#"> Only God &nbsp&nbsp&nbsp&nbsp&nbspForgives</a><br>
+		  		<a class="icon icon-video-alt"href="#"> The Big Short</a><br>
+		  		</span><div class="goddess">
+		  		<a   href="#">Learn more</a></div>
+		  		</div>
+		  	</div>
+		  </div>
+		</section>
+		<!-- <div class="starbangle"></div> -->
+		</div>
+        <div id="hans">
+        <div id="hansimg">
+        <a class="hanspic" href="#"><img class="hanspicinside" src="img/hans/1.jpg" /></a>
+        <a class="hanspic" href="#"><img class="hanspicinside"src="img/hans/2.jpg" /></a>
+        <a class="hanspic" href="#"><img class="hanspicinside"src="img/hans/3.jpg" /></a>
+        <a class="hanspic" href="#"><img class="hanspicinside"src="img/hans/4.jpg" /></a>
+        <a class="hanspic" href="#"><img class="hanspicinside"src="img/hans/5.jpg" /></a>
+        <a class="hanspic" href="#"><img class="hanspicinside"src="img/hans/6.jpg" /></a>
+        <a class="hanspic" href="#"><img class="hanspicinside"src="img/hans/7.jpg" /></a>
+        <a class="hanspic" href="#"><img class="hanspicinside"src="img/hans/8.jpg" /></a>
+        <a class="hanspic" href="#"><img class="hanspicinside"src="img/hans/9.jpg" /></a>
+
+        	
+        </div>
+         <div id="hanstext">
+         	<span id="hanstitle">Ring Any Bells?</span><br>
+         	<div id="hanstextcontent">The origional soundtrack of these wonderful movies are all composed by the almight <a class="hanspophref" href="#" id="img/hanszimmer.jpg">Hans Zimmer</a>,different from the same gargabes of music produced by marverl studio, you absentmindedly will hear the soul of his music in DC comic world.</span></div>
+         	<div id="hanstextothers">
+         	<a class="hanspophref"href="#" id="img/stevej.jpg" >Steve jablonsky </a><br>
+         	<a class="hanspophref"href="#" id="img/junkiexl.jpg" >Junkie XL </a><br>
+         	<a class="hanspophref"href="#" id="img/john.jpg" >John Powell </a><br>
+         	<div id="popimg">
+         		<img src="img/stevej.jpg" id="imgTip" class="clsImg">
+         	</div>
+         	
+         	</div>
+         </div>
+
+        </div>
+		
+
+
+
+
+
+		</div>
+		
+		
+		<div id="topstars">
+		<div class="topstarstitle">Most Popular Stars</div>
+		<div class="topstarsbutton">
+		<a id="starbutton1"class="icon icon-left"></a>
+		<a id="starbutton2"class="icon icon-right"></a>
+		
+	    </div>
+	    <div class="topstarscontent">
+		<div class="topstarslist">
+		<span id="span1">
+		   <div class="topstarlistimg">
+		   <!-- <p class="icon icon-twitter" class="topstarbanner"> -->
+		   <a class="topstarlistimgreal"href="#">
+		   	<img src="img/stars/1.jpg">
+
+		   </a>
+		   <!-- <p class="icon icon-twitter" class="topstarbanner"> -->
+
+		   <br>
+		   <span class="topstarlistimgname">
+		   	Jessica Chastain
+		   </span>
+
+		   </div>
+		</span>
+		<span id="span2">
+		   <div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   	<img src="img/stars/8.jpg">
+
+		   	</a>
+		   <br>
+		   <span class="topstarlistimgname">
+		   	Will Smith
+		   </span>
+		   </div>
+
+		</span>
+		<span id="span3">
+			<div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   	<img src="img/stars/3.jpg">
+		   </a>
+		   <br>
+		   <span class="topstarlistimgname">
+		   	Natalie Dormer
+		   </span>
+		   </div>
+		</span>
+		<span id="span4">
+			<div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   	<img src="img/stars/4.jpg">
+		   </a>
+		   <br>
+		   <span class="topstarlistimgname">
+		   	Matt Damon
+		   </span>
+		   </div>
+		</span>
+		<span id="span5">
+			<div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   	<img src="img/stars/5.jpg">
+		   </a>
+		   <br>
+		   <span class="topstarlistimgname">
+		   	Vera Farmiga
+		   </span>
+		   </div>
+		</span>
+		<span id="span6">
+			<div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   	<img src="img/stars/6.jpg">
+		   </a>
+		   <br>
+		   <span class="topstarlistimgname">
+		   	Christopher Nolan
+		   </span>
+		   </div>
+		</span>
+		<span id="span7">
+			<div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   	<img src="img/stars/7.jpg">
+		   </a>
+		   <br>
+		   <span class="topstarlistimgname">
+		   	Jennifer Lawrence
+		   </span>
+		   </div>
+		</span>
+		<span id="span8">
+			<div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   	<img src="img/stars/2.jpg">
+		   </a>
+		   <br>
+		   <span class="topstarlistimgname">
+		   	Johnny Depp
+		   </span>
+		   </div>
+		</span>
+		<span id="span9">
+			<div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   	<img src="img/stars/10.jpg">
+		   </a>
+		   <br>
+		   <span class="topstarlistimgname">
+		   	Sophie Turner
+		   </span>
+		   </div>
+		</span>
+		<span id="span10">
+			<div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   	<img src="img/stars/9.jpg">
+		   </a>
+		   <br>
+		   <span class="topstarlistimgname">
+		   	Christian Bale
+		   </span>
+		   </div>
+		</span>
+		
+			
+		</div>
+	    </div>
+		</div>
+
+
+        <div id="topmovies">
+		<div class="topstarstitle">My Top Ten</div>
+		<div class="topstarsbutton">
+		<a id="starbutton3"class="icon icon-left"></a>
+		<a id="starbutton4"class="icon icon-right"></a>
+		
+	    </div>
+	    <div class="topstarscontent">
+		<div class="topmovieslist">
+		<span id="span1">
+		   <div class="topstarlistimg">
+		   <!-- <p class="icon icon-twitter" class="topstarbanner"> -->
+		   <a class="topstarlistimgreal"href="#">
+		   	<img src="img/topten2/1.jpg">
+
+		   </a>
+		   <!-- <p class="icon icon-twitter" class="topstarbanner"> -->
+
+		   <br>
+		   <span class="topmovielistimgname">
+		   	TLOTR
+		   </span>
+
+		   </div>
+		</span>
+		<span id="span2">
+		   <div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   		<img src="img/topten2/2.jpg">
+
+		   	</a>
+		   <br>
+		   <span class="topmovielistimgname">
+		   TDK
+		   </span>
+		   </div>
+
+		</span>
+		<span id="span3">
+			<div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   		<img src="img/topten2/3.jpg">
+		   </a>
+		   <br>
+		   <span class="topmovielistimgname">
+		   	Interstellar
+		   </span>
+		   </div>
+		</span>
+		<span id="span4">
+			<div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   		<img src="img/topten2/4.jpg">
+		   </a>
+		   <br>
+		   <span class="topmovielistimgname">
+		   	Whiplash
+		   </span>
+		   </div>
+		</span>
+		<span id="span5">
+			<div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   		<img src="img/topten2/5.jpg">
+		   </a>
+		   <br>
+		   <span class="topmovielistimgname">
+		   	Warrior
+		   </span>
+		   </div>
+		</span>
+		<span id="span6">
+			<div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   		<img src="img/topten2/6.jpg">
+		   </a>
+		   <br>
+		   <span class="topmovielistimgname">
+		   	Rush
+		   </span>
+		   </div>
+		</span>
+		<span id="span7">
+			<div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   	<img src="img/topten2/7.jpg">
+		   </a>
+		   <br>
+		   <span class="topmovielistimgname">
+		   	The Eternal Sunshine...
+		   </span>
+		   </div>
+		</span>
+		<span id="span8">
+			<div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   		<img src="img/topten2/8.jpg">
+		   </a>
+		   <br>
+		   <span class="topmovielistimgname">
+		   	Wall-E
+		   </span>
+		   </div>
+		</span>
+		<span id="span9">
+			<div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   		<img src="img/topten2/9.jpg">
+		   </a>
+		   <br>
+		   <span class="topmovielistimgname">
+		   	Life is Beautiful
+		   </span>
+		   </div>
+		</span>
+		<span id="span10">
+			<div class="topstarlistimg">
+		   <a class="topstarlistimgreal"href="#">
+		   	<img src="img/topten2/10.jpg">
+		   </a>
+		   <br>
+		   <span class="topmovielistimgname">
+		   	Stations of The Cross
+		   </span>
+		   </div>
+		</span>
+		
+			
+		</div>
+	    </div>
+		</div>
+
+
+
+
+
+		<div id="news">
+        <span class="newsfont">News</span>
+        <div id="newsouter">
+        	<div class="newshead">
+        		<div class="newshead-img"><img class="newshead-imgreal"src="img/news1.png"></div>
+        		<div class="newsdate">11.6.2016</div>
+        		<div class="newshead-text"><a href="#">Johnny Depp Supports Ukrainian Director Oleg Sentsov in 'Imprisoned for Art' Campaign</a>
+        		</div>
+        	</div>
+        	<div class="newsbody">
+        		Johnny Depp has expressed support for imprisoned Ukrainian film director Oleg Sentsov by joining a new campaign called "Imprisoned for Art."
+        	</div>
+
+        	<div class="newshead" id="newshead2">
+        		<div class="newshead-img"><img class="newshead-imgreal"src="img/rock.png"></div>
+        		<div class="newsdate">11.10.2016</div>
+        		<div class="newshead-text"><a href="#">Dwayne Johnson Sets His Sights on Being 'Sexiest President Alive'</a></div>
+
+        	</div>
+        	<div class="newsbody">If a reality TV personality can be president, why not a WWE champion, action star and recently-crown "Sexiest Man Alive?" That's the logic fueling Dwayne Johnson's latest political aspirations
+        	</div>
+        	<div class="newshead" >
+        		<div class="newshead-img"><img class="newshead-imgreal"src="img/news3.png"></div>
+        		<div class="newsdate">11.18.2016</div>
+        		<div class="newshead-text"><a href="#">Emilia Clarke Joins 'Star Wars' Han Solo Spinoff</a></div>
+
+        	</div>
+        	<div class="newsbody">The galaxy far, far away is inching closer. The "Star Wars" Han Solo spinoff has tapped Emilia Clarke as its female lead.The Game of Thrones actress will star opposite Alden Ehrenreich , who play Solo and fellow smuggler 
+        	</div>
+        </div>			
+		</div>
+		<div id="formre" >
+			<form id="redemption" >
+			
+               <hgroup>
+               	
+               	<h1>Oscar Redemption</h1>
+               	<h2>Here's your chance to set the record straight: tell us what year the wrong film got nominated, and which film <b>should</b> have received a nod...</h2>
+               </hgroup>
+               <fieldset>
+               	<legend>About the offending film (part 1 of 3)</legend>
+               	<div>
+               		<label for="film">The film in question</label>
+               		<input id="film" name="film" type="text" placeholder="transformers" required aria-required="true">
+               	</div>
+               	<div>
+               		<label for="yearofCrime">year of Crime</label>
+               		<input id="yearofCrime" name="yearofCrime" type="number" min="1929" max="2015" required aria-required="true">
+               	</div>
+               	
+               	<div>
+					<label for="awardWon">award won</label>
+					<input id="awardWon" name="awardWon" type="text" list="awards">
+					<datalist id="awards">
+						<select>					
+							<option value="Best Picture"></option>
+							<option value="Best Director"></option>
+							<option value="Best Adapted Screenplay"></option>
+							<option value="Best Original Screenplay"></option>
+						</select>
+					</datalist>
+				</div>
+				<div>
+					<label for="whyItsWrong">Tell us why that's wrong?</label>
+					<textarea id="whyItsWrong" name="whyItsWrong" placeholder="I fell asleep within 20 minutes..." 
+					  required aria-required="true" ></textarea>
+				</div>
+				<div>
+					<label for="howYouRateIt">howYouRateIt</label>
+					<input id="howYouRateIt" name="howYouRateIt" type="range" min="1" max="5" value="2" onchange="showValue(this.value)">
+					<span id="range">2</span>
+				</div>
+
+               </fieldset>
+               <fieldset>
+               <legend>What should have won? (part 2 of 3)</legend>
+               	<div>
+					<label for="filmGood">The film that should have won?</label>
+					<input id="filmGood" name="filmGood" type="text" placeholder="e.g. Cable Guy" required aria-required="true" >
+				</div>
+				<div>
+					<label for="whyItShould">Tell us why it should have won?</label>
+					<textarea id="whyItShould" name="whyItShould" placeholder="Hello? CAABBLLLLE GUUUY!!!!!" required aria-required="true" ></textarea>
+				</div>
+				<div>
+					<label for="howYouRateThis">How you rate it (1 is woeful, 10 is awesomesauce)</label>
+					<input id="howYouRateThis" name="howYouRateThis" type="number" min="1" max="10" value="5" required aria-required="true">
+				</div>
+               </fieldset>
+               <fieldset>
+               	<legend>About you? (part 3 of 3)</legend>
+               	<div>
+					<label for="name">Your Name</label>
+					<input id="name" name="name" pattern="([a-zA-Z]{3,30}\s*)+[a-zA-Z]{3,30}" placeholder="Dwight Schultz" required aria-required="true" >
+				</div>
+				<div>
+					<label for="color">Your favorite color</label>
+					<input id="color" name="color" type="color">
+				</div>
+				<div>
+					<label for="date">Date/Time</label>
+					<input id="date" class="pickDate" type="date" name="date" />
+				</div>
+				<div>
+					<label for="tel">Telephone (so we can berate you if you're wrong)</label>
+					<input id="tel" name="tel" type="tel" placeholder="1-234-546758" autocomplete="off" required aria-required="true" >
+				</div>
+				<div>
+					<label for="email">Your Email address</label>
+					<input id="email" name="email" type="email" placeholder="dwight.schultz@gmail.com" required aria-required="true">
+				</div>
+				<div>
+					<label for="web">Your Web address</label>
+					<input id="web" name="web" type="url" placeholder="www.mysite.com" onclick="addhttp()">
+				</div>
+               </fieldset>
+               <input type="submit" value="Submit" id="submit">
+
+
+
+		</form>
+		</div>
+		
+		<footer>
+			<!-- <img class="footerimg" src="img/walle.png"> -->
+			<img class="footerimg" src="img/p2191868900.jpg">
+			
+			<div id="leftfoot"><span>Contact Information</span><br>Shanghai Normal University<br>
+            100 Guilin Road, Shanghai 200234<br>P.R.CHINA<br><a id="leftfootlast" class="icon icon-phone"> +86-136-7866-2322</a>
+			</div>
+			<!-- <div id="rightfoot">
+				<span>Links</span><br>
+				<a href="#">Genre</a><br>
+				<a href="#">Visual</a><br>
+				<a href="#">Stars</a><br>
+				<a href="#">Soundtrack</a><br>
+				<a href="#">Tickets</a><br>
+
+			</div> -->
+			<div id="follow">Follow Us<br><a class="icon icon-twitter"></a>
+			<a class="icon icon-facebook"></a></div>
+			</footer>
+		
+		
+		<!-- <div id="bottombanner"></div> -->
+
+
+
+	</div>
+		
+	</body>
+</html>

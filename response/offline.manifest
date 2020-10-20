@@ -1,0 +1,6 @@
+CACHE MANIFEST
+# Cache Manifest v1
+FALLBACK:
+??offline.html
+NETWORK:
+*
